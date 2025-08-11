@@ -1,4 +1,3 @@
-# agents
 # 🤖 OpenAI Quickstart Agent ✨
 
 A minimal Python script to connect with the OpenAI API using a securely stored API key. Loads your API key from a `.env` file, initializes the client, and sends a test prompt to GPT.
@@ -9,10 +8,8 @@ A minimal Python script to connect with the OpenAI API using a securely stored A
 - 🐍 Works with Python 3.9+  
 - ⚡ Lightweight — only needs `openai` & `python-dotenv`  
 - 🛠 Ready to run inside a Conda environment  
-- 📂 Clear project structure for easy setup  
 
 ## 🛠️ Setup Instructions
-```bash
 # 1. Create and activate Conda environment
 conda create -n openai-agent python=3.11 -y
 conda activate openai-agent
